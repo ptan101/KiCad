@@ -196,4 +196,9 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
+  (model ":KICAD7_USER_3DMODEL_DIR:Package_SON/X2SON-5_0.8x0.8mm.stp"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
