@@ -919,11 +919,11 @@
       )
     )
     (symbol "OPA2836_3_1"
-      (pin power_in line (at 0 6.985 270) (length 2.54)
+      (pin power_in line (at 0 7.62 270) (length 2.54)
         (name "V+" (effects (font (size 1.27 1.27))))
         (number "10" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 0 -6.985 90) (length 2.54)
+      (pin power_in line (at 0 -7.62 90) (length 2.54)
         (name "V-" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
