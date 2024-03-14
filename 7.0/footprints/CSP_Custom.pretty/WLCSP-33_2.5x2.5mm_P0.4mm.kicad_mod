@@ -80,7 +80,7 @@
   (pad "G6" smd circle (at 1 1.000125) (size 0.254 0.254) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp ac633919-6f14-4fc3-b9f3-04bc8e087c3d))
   (model ":KICAD7_USER_3DMODEL_DIR:Package_CSP/WLCSP-33_2.5x2.5mm_P0.4mm.step"
     (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
+    (scale (xyz 0.8 0.7 0.8))
     (rotate (xyz 0 0 0))
   )
 )
