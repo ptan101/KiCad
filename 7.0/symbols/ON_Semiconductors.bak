@@ -1722,7 +1722,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DFN_QFN_Custom:MCPH-6_2x1.6mm_P0.65mm"
+		(property "Footprint" ""
 			(at 0 -1.27 0)
 			(effects
 				(font

@@ -1,4 +1,4 @@
-(footprint "FFC_FPC_P0.25mm_Thin"
+(footprint "FFC_FPC_01x33_P0.25mm_Thin"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")

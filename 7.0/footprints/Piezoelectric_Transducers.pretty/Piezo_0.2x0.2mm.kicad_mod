@@ -65,6 +65,7 @@
 			)
 		)
 	)
+	(solder_paste_margin 0.025)
 	(attr smd)
 	(pad "1" smd roundrect
 		(at 0 0)
@@ -73,5 +74,27 @@
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "31bb3048-326f-4f3c-931b-f417ecfca365")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/RF_Antenna.3dshapes/AVX_M620720.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 0.07 0.2 0.35)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${KICAD8_3DMODEL_DIR}/RF_Antenna.3dshapes/Pulse_W3000.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 0.06 0.26 0.2)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
 	)
 )
