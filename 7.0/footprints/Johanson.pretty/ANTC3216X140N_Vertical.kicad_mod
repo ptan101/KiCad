@@ -1,14 +1,82 @@
-(module ANTC3216X140N_Vertical (layer F.Cu) (tedit 60FF29B0)
-  (fp_text reference REF** (at 0.635945 -3.179785) (layer F.SilkS)
-    (effects (font (size 1.001504 1.001504) (thickness 0.015)))
-  )
-  (fp_text value ANTC3216X140N_Vertical (at 5.717475 3.176375) (layer F.Fab)
-    (effects (font (size 1.000433 1.000433) (thickness 0.015)))
-  )
-  (pad 1 smd rect (at -1.46 0) (size 1.2 1.82) (layers F.Cu F.Paste F.Mask))
-  (model ${KISYS3DMOD}/Johanson.3dshapes/2450AT42A100E.STEP
-    (offset (xyz -1 0 1.75))
-    (scale (xyz 0.7 1 1))
-    (rotate (xyz -90 90 0))
-  )
+(footprint "ANTC3216X140N_Vertical"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.635945 -3.179785 0)
+		(layer "F.SilkS")
+		(uuid "1dc33bc3-6326-46e2-8d56-eb9edee0b950")
+		(effects
+			(font
+				(size 1.001504 1.001504)
+				(thickness 0.015)
+			)
+		)
+	)
+	(property "Value" "ANTC3216X140N_Vertical"
+		(at 5.717475 3.176375 0)
+		(layer "F.Fab")
+		(uuid "cc68a735-3e92-46e6-8577-a1a74a40d3c1")
+		(effects
+			(font
+				(size 1.000433 1.000433)
+				(thickness 0.015)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0a0ff843-27d3-4a72-8cf9-00ce91d676bf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "138753dd-6732-40f1-a851-1bac946e1ed5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0f00f134-c8b9-4971-8e4b-3082726cfd89")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(pad "1" smd rect
+		(at -1.46 0)
+		(size 1.2 1.82)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "df77c548-43fe-485f-859c-64fef90d271d")
+	)
+	(model "${KICAD7_USER_3DMODEL_DIR}/Johanson/2450AT42A100E.STEP"
+		(offset
+			(xyz -4 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -180)
+		)
+	)
 )

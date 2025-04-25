@@ -1,12 +1,13 @@
-(footprint "Piezo_0.4x0.4mm"
+(footprint "Piezo_0.6x0.6mm"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -0.5 0)
+		(at 0 -0.75 0)
 		(unlocked yes)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "95445db6-b8e3-47f2-8377-52e7df565aa1")
 		(effects
 			(font
@@ -15,10 +16,11 @@
 			)
 		)
 	)
-	(property "Value" "Piezo_0.4x0.4mm"
+	(property "Value" "Piezo_0.6x0.6mm"
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "547fda6d-feed-4f1b-b51a-133db19a9c80")
 		(effects
 			(font
@@ -31,7 +33,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "58c15317-1a2e-471f-a363-4308453ff5c6")
+		(uuid "d1c7c8c9-e361-465a-a821-b66c0267d071")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -43,7 +45,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "38d5a259-4cac-43da-bfd0-8ab571ec6812")
+		(uuid "fc7a0bca-db35-4ef5-993f-7262a44407ef")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -55,7 +57,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "7027b569-0d54-4f21-a43e-d911d1686c3a")
+		(uuid "21dcc4fe-2eeb-4428-a3b2-d6b7714aa6ee")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -64,21 +66,9 @@
 		)
 	)
 	(attr smd)
-	(fp_text user "${REFERENCE}"
-		(at 0 2.5 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(uuid "79fcdace-d17b-4f3b-8eae-0362d608633e")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
 	(pad "1" smd roundrect
 		(at 0 0)
-		(size 0.4 0.4)
+		(size 0.6 0.6)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
